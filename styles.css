@@ -1,0 +1,91 @@
+    body {
+ padding: 20px!important;
+margin:0 !important;
+-webkit-text-size-adjust: 100% !important;
+-ms-text-size-adjust: 100% !important;
+-webkit-font-smoothing: antialiased !important;
+font-family:Helvetica,Arial,sans-serif;
+ background-image: url('images/bg-border.png');
+background-position: center ;
+background-size: 100% 100%;
+
+ background-repeat: no-repeat;
+
+ background-color: #f1f1f1;
+ direction: ltr;
+    }
+    .ContainerTable {
+ background-image: url('images/bg_employee_mail.png');
+ background-position: center;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ border-radius: 10px;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ -ms-border-radius:10px;
+
+  }
+    .tableContent img {
+border: 0 !important;
+display: block !important;
+outline: none !important;
+    }
+    p, h1,h2,ul,ol,li,div{
+ margin:0;
+ padding:0;
+    }
+    h1,h2{
+ font-weight: normal;
+ background:transparent !important;
+ border:none !important;
+ line-height: 20px;
+    }
+
+    td.middle{
+ vertical-align: middle;
+    }
+    a{
+ text-decoration: none;
+    }
+    img {
+ outline:none;
+ text-decoration:none;
+ -ms-interpolation-mode: bicubic;
+ max-width: 100%;
+    }
+    @media only screen and (max-width:768px) {
+ table.MainTable  {
+   width: 100% !important;
+ }
+ .DataTable {
+   margin-top: -50px;
+ }
+ .ContainerTable {
+   background-size: cover ;
+ }
+ .height-custom {
+   height: 0;
+ }
+    }
+	
+.colorful {
+    font-family:Helvetica,Arial,sans-serif;font-size:20px;color:#000;padding:10px 70px; border-radius:30px;-moz-border-radius:30px;-webkit-border-radius:30px; background-image: -moz-linear-gradient(-90deg, #e4c586 0%, #d7aa68 98%); background-image: -webkit-linear-gradient(-90deg, #e4c586 0%, #d7aa68 98%);background-image: -ms-linear-gradient(-90deg, #e4c586 0%, #d7aa68 98%);box-shadow: -1.04px 4.891px 9px 0px rgba(28, 30, 36, 0.32);background-color: #d6a764;border:0px;
+}
+.colorful2 {
+    -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;
+}
+.colorful3 {
+    margin:0;text-align: left;color:#000;font-size:15px;
+} 
+ .colorful4 {
+    margin:0;text-align:left;color:#374a5c;font-size:20px;font-weight:bold;font-family:Helvetica,Arial,sans-serif;
+} 
+ .colorful5 {
+    color:#741e3e; text-shadow: 0.968px 2.881px 0px rgba(167, 167, 167, 0.44);font-size: 25px;
+} 
+.colorful6 {
+    margin:0;text-align: left;color:#374a5c;font-size:20px;
+} 
+.colorful7 {
+    margin:0;color:#374a5c;font-size:20px;font-weight:bold;font-family: Helvetica,Arial,sans-serif;
+} 
